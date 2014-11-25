@@ -3836,3 +3836,825 @@ Stack trace:
 REQUEST_URI=/recm/index.php/ap1Ind1Hist/update/1
 in /var/www/html/recm/protected/controllers/Ap1Ind1HistController.php (290)
 in /var/www/html/recm/index.php (13)
+2014/11/24 01:21:59 [error] [php] file_get_contents(/recm/themes/abound/index.php/api/ap1Ind1): failed to open stream: No such file or directory (/var/www/html/recm/protected/controllers/Ap1Ind1HistController.php:109)
+Stack trace:
+#0 /var/www/html/recm/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#1 /var/www/html/recm/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /var/www/html/recm/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /var/www/html/recm/yii/framework/web/filters/CFilterChain.php(133): Ap1Ind1HistController->runAction()
+#4 /var/www/html/recm/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /var/www/html/recm/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#6 /var/www/html/recm/yii/framework/web/filters/CInlineFilter.php(58): Ap1Ind1HistController->filterAccessControl()
+#7 /var/www/html/recm/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#8 /var/www/html/recm/yii/framework/web/CController.php(291): CFilterChain->run()
+#9 /var/www/html/recm/yii/framework/web/CController.php(265): Ap1Ind1HistController->runActionWithFilters()
+#10 /var/www/html/recm/yii/framework/web/CWebApplication.php(282): Ap1Ind1HistController->run()
+#11 /var/www/html/recm/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /var/www/html/recm/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /var/www/html/recm/index.php(13): CWebApplication->run()
+REQUEST_URI=/recm/index.php/ap1Ind1Hist/previo/1
+in /var/www/html/recm/protected/controllers/Ap1Ind1HistController.php (109)
+in /var/www/html/recm/index.php (13)
+2014/11/24 01:25:48 [error] [php] file_get_contents(/recm/api/ap1Ind1): failed to open stream: No such file or directory (/var/www/html/recm/protected/controllers/Ap1Ind1HistController.php:109)
+Stack trace:
+#0 /var/www/html/recm/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#1 /var/www/html/recm/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /var/www/html/recm/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /var/www/html/recm/yii/framework/web/filters/CFilterChain.php(133): Ap1Ind1HistController->runAction()
+#4 /var/www/html/recm/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /var/www/html/recm/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#6 /var/www/html/recm/yii/framework/web/filters/CInlineFilter.php(58): Ap1Ind1HistController->filterAccessControl()
+#7 /var/www/html/recm/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#8 /var/www/html/recm/yii/framework/web/CController.php(291): CFilterChain->run()
+#9 /var/www/html/recm/yii/framework/web/CController.php(265): Ap1Ind1HistController->runActionWithFilters()
+#10 /var/www/html/recm/yii/framework/web/CWebApplication.php(282): Ap1Ind1HistController->run()
+#11 /var/www/html/recm/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /var/www/html/recm/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /var/www/html/recm/index.php(13): CWebApplication->run()
+REQUEST_URI=/recm/index.php/ap1Ind1Hist/previo/1
+in /var/www/html/recm/protected/controllers/Ap1Ind1HistController.php (109)
+in /var/www/html/recm/index.php (13)
+2014/11/24 01:27:41 [error] [php] file_get_contents(/recm/api/ap1Ind1): failed to open stream: No such file or directory (/var/www/html/recm/protected/controllers/Ap1Ind1HistController.php:109)
+Stack trace:
+#0 /var/www/html/recm/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#1 /var/www/html/recm/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /var/www/html/recm/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /var/www/html/recm/yii/framework/web/filters/CFilterChain.php(133): Ap1Ind1HistController->runAction()
+#4 /var/www/html/recm/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /var/www/html/recm/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#6 /var/www/html/recm/yii/framework/web/filters/CInlineFilter.php(58): Ap1Ind1HistController->filterAccessControl()
+#7 /var/www/html/recm/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#8 /var/www/html/recm/yii/framework/web/CController.php(291): CFilterChain->run()
+#9 /var/www/html/recm/yii/framework/web/CController.php(265): Ap1Ind1HistController->runActionWithFilters()
+#10 /var/www/html/recm/yii/framework/web/CWebApplication.php(282): Ap1Ind1HistController->run()
+#11 /var/www/html/recm/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /var/www/html/recm/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /var/www/html/recm/index.php(13): CWebApplication->run()
+REQUEST_URI=/recm/index.php/ap1Ind1Hist/previo/1
+in /var/www/html/recm/protected/controllers/Ap1Ind1HistController.php (109)
+in /var/www/html/recm/index.php (13)
+2014/11/24 01:33:42 [error] [php] file_get_contents(/var/www/html/recm/protected/api/ap1Ind1): failed to open stream: No such file or directory (/var/www/html/recm/protected/controllers/Ap1Ind1HistController.php:109)
+Stack trace:
+#0 /var/www/html/recm/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#1 /var/www/html/recm/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /var/www/html/recm/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /var/www/html/recm/yii/framework/web/filters/CFilterChain.php(133): Ap1Ind1HistController->runAction()
+#4 /var/www/html/recm/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /var/www/html/recm/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#6 /var/www/html/recm/yii/framework/web/filters/CInlineFilter.php(58): Ap1Ind1HistController->filterAccessControl()
+#7 /var/www/html/recm/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#8 /var/www/html/recm/yii/framework/web/CController.php(291): CFilterChain->run()
+#9 /var/www/html/recm/yii/framework/web/CController.php(265): Ap1Ind1HistController->runActionWithFilters()
+#10 /var/www/html/recm/yii/framework/web/CWebApplication.php(282): Ap1Ind1HistController->run()
+#11 /var/www/html/recm/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /var/www/html/recm/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /var/www/html/recm/index.php(13): CWebApplication->run()
+REQUEST_URI=/recm/index.php/ap1Ind1Hist/previo/1
+in /var/www/html/recm/protected/controllers/Ap1Ind1HistController.php (109)
+in /var/www/html/recm/index.php (13)
+2014/11/24 01:36:14 [error] [php] file_get_contents(/recm/themes/abound/api/ap1Ind1): failed to open stream: No such file or directory (/var/www/html/recm/protected/controllers/Ap1Ind1HistController.php:109)
+Stack trace:
+#0 /var/www/html/recm/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#1 /var/www/html/recm/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /var/www/html/recm/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /var/www/html/recm/yii/framework/web/filters/CFilterChain.php(133): Ap1Ind1HistController->runAction()
+#4 /var/www/html/recm/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /var/www/html/recm/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#6 /var/www/html/recm/yii/framework/web/filters/CInlineFilter.php(58): Ap1Ind1HistController->filterAccessControl()
+#7 /var/www/html/recm/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#8 /var/www/html/recm/yii/framework/web/CController.php(291): CFilterChain->run()
+#9 /var/www/html/recm/yii/framework/web/CController.php(265): Ap1Ind1HistController->runActionWithFilters()
+#10 /var/www/html/recm/yii/framework/web/CWebApplication.php(282): Ap1Ind1HistController->run()
+#11 /var/www/html/recm/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /var/www/html/recm/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /var/www/html/recm/index.php(13): CWebApplication->run()
+REQUEST_URI=/recm/index.php/ap1Ind1Hist/previo/1
+in /var/www/html/recm/protected/controllers/Ap1Ind1HistController.php (109)
+in /var/www/html/recm/index.php (13)
+2014/11/24 01:42:23 [error] [php] file_get_contents(/recm/themes/abound/api/ap1Ind1): failed to open stream: No such file or directory (/var/www/html/recm/protected/controllers/Ap1Ind1HistController.php:109)
+Stack trace:
+#0 /var/www/html/recm/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#1 /var/www/html/recm/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /var/www/html/recm/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /var/www/html/recm/yii/framework/web/filters/CFilterChain.php(133): Ap1Ind1HistController->runAction()
+#4 /var/www/html/recm/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /var/www/html/recm/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#6 /var/www/html/recm/yii/framework/web/filters/CInlineFilter.php(58): Ap1Ind1HistController->filterAccessControl()
+#7 /var/www/html/recm/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#8 /var/www/html/recm/yii/framework/web/CController.php(291): CFilterChain->run()
+#9 /var/www/html/recm/yii/framework/web/CController.php(265): Ap1Ind1HistController->runActionWithFilters()
+#10 /var/www/html/recm/yii/framework/web/CWebApplication.php(282): Ap1Ind1HistController->run()
+#11 /var/www/html/recm/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /var/www/html/recm/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /var/www/html/recm/index.php(13): CWebApplication->run()
+REQUEST_URI=/recm/index.php/ap1Ind1Hist/previo/1
+in /var/www/html/recm/protected/controllers/Ap1Ind1HistController.php (109)
+in /var/www/html/recm/index.php (13)
+2014/11/24 01:43:08 [error] [php] file_get_contents(/var/www/html/recm/api/ap1Ind1): failed to open stream: No such file or directory (/var/www/html/recm/protected/controllers/Ap1Ind1HistController.php:109)
+Stack trace:
+#0 /var/www/html/recm/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#1 /var/www/html/recm/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 /var/www/html/recm/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /var/www/html/recm/yii/framework/web/filters/CFilterChain.php(133): Ap1Ind1HistController->runAction()
+#4 /var/www/html/recm/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /var/www/html/recm/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#6 /var/www/html/recm/yii/framework/web/filters/CInlineFilter.php(58): Ap1Ind1HistController->filterAccessControl()
+#7 /var/www/html/recm/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#8 /var/www/html/recm/yii/framework/web/CController.php(291): CFilterChain->run()
+#9 /var/www/html/recm/yii/framework/web/CController.php(265): Ap1Ind1HistController->runActionWithFilters()
+#10 /var/www/html/recm/yii/framework/web/CWebApplication.php(282): Ap1Ind1HistController->run()
+#11 /var/www/html/recm/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /var/www/html/recm/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /var/www/html/recm/index.php(13): CWebApplication->run()
+REQUEST_URI=/recm/index.php/ap1Ind1Hist/previo/1
+in /var/www/html/recm/protected/controllers/Ap1Ind1HistController.php (109)
+in /var/www/html/recm/index.php (13)
+2014/11/24 08:59:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "ap1Ind21Hist"' in /var/www/html/recm/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/recm/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('ap1Ind21Hist')
+#1 /var/www/html/recm/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/recm/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/recm/index.php/ap1Ind21Hist
+HTTP_REFERER=http://localhost/recm/index.php/main/
+---
+2014/11/24 09:16:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "ap1Ind21Hist"' in /var/www/html/recm/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/recm/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('ap1Ind21Hist')
+#1 /var/www/html/recm/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/recm/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/recm/index.php/ap1Ind21Hist
+HTTP_REFERER=http://localhost/recm/index.php/main/index
+---
+2014/11/24 09:16:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "ap1Ind2aHist"' in /var/www/html/recm/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/recm/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('ap1Ind2aHist')
+#1 /var/www/html/recm/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/recm/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/recm/index.php/ap1Ind2aHist
+---
+2014/11/24 09:41:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "ap1Ind21Hist"' in /var/www/html/recm/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/recm/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('ap1Ind21Hist')
+#1 /var/www/html/recm/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/recm/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/recm/index.php/ap1Ind21Hist
+HTTP_REFERER=http://localhost/recm/index.php/main/index
+---
+2014/11/24 10:03:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "excel" solicitada.' in /var/www/html/recm/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/recm/yii/framework/web/CController.php(270): CController->missingAction('excel')
+#1 /var/www/html/recm/yii/framework/web/CWebApplication.php(282): CController->run('excel')
+#2 /var/www/html/recm/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('ap1Ind2aHist/ex...')
+#3 /var/www/html/recm/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/html/recm/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/recm/index.php/ap1Ind2aHist/excel/1
+HTTP_REFERER=http://localhost/recm/index.php/ap1Ind2aHist
+---
+2014/11/24 10:04:14 [error] [exception.CException] exception 'CException' with message 'Ap1Ind2aHistController no ha podido encontrar la vista "_excel" solicitada.' in /var/www/html/recm/yii/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/html/recm/yii/framework/web/CController.php(782): CController->renderPartial('_excel', Array, true)
+#1 /var/www/html/recm/protected/controllers/Ap1Ind2aHistController.php(93): CController->render('_excel', Array)
+#2 [internal function]: Ap1Ind2aHistController->actionExcel('1')
+#3 /var/www/html/recm/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Ap1Ind2aHistController), Array)
+#4 /var/www/html/recm/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Ap1Ind2aHistController), Object(ReflectionMethod), Array)
+#5 /var/www/html/recm/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /var/www/html/recm/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 /var/www/html/recm/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#8 /var/www/html/recm/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 /var/www/html/recm/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 /var/www/html/recm/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 /var/www/html/recm/yii/framework/web/CController.php(291): CFilterChain->run()
+#12 /var/www/html/recm/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /var/www/html/recm/yii/framework/web/CWebApplication.php(282): CController->run('excel')
+#14 /var/www/html/recm/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('ap1Ind2aHist/ex...')
+#15 /var/www/html/recm/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#16 /var/www/html/recm/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/recm/index.php/ap1Ind2aHist/excel/1
+HTTP_REFERER=http://localhost/recm/index.php/ap1Ind2aHist
+---
+2014/11/24 10:10:12 [error] [php] copy(/bak_carga_ap1Ind2a.xlsx): failed to open stream: Permission denied (/var/www/html/recm/protected/views/ap1Ind2aHist/_excel.php:59)
+Stack trace:
+#0 /var/www/html/recm/yii/framework/web/CBaseController.php(95): Ap1Ind2aHistController->renderInternal()
+#1 /var/www/html/recm/yii/framework/web/CController.php(869): Ap1Ind2aHistController->renderFile()
+#2 /var/www/html/recm/yii/framework/web/CController.php(782): Ap1Ind2aHistController->renderPartial()
+#3 /var/www/html/recm/protected/controllers/Ap1Ind2aHistController.php(93): Ap1Ind2aHistController->render()
+#4 unknown(0): Ap1Ind2aHistController->actionExcel()
+#5 /var/www/html/recm/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#6 /var/www/html/recm/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#7 /var/www/html/recm/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /var/www/html/recm/yii/framework/web/filters/CFilterChain.php(133): Ap1Ind2aHistController->runAction()
+#9 /var/www/html/recm/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#10 /var/www/html/recm/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#11 /var/www/html/recm/yii/framework/web/filters/CInlineFilter.php(58): Ap1Ind2aHistController->filterAccessControl()
+#12 /var/www/html/recm/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#13 /var/www/html/recm/yii/framework/web/CController.php(291): CFilterChain->run()
+#14 /var/www/html/recm/yii/framework/web/CController.php(265): Ap1Ind2aHistController->runActionWithFilters()
+#15 /var/www/html/recm/yii/framework/web/CWebApplication.php(282): Ap1Ind2aHistController->run()
+#16 /var/www/html/recm/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#17 /var/www/html/recm/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#18 /var/www/html/recm/index.php(13): CWebApplication->run()
+REQUEST_URI=/recm/index.php/ap1Ind2aHist/excel/1
+in /var/www/html/recm/protected/views/ap1Ind2aHist/_excel.php (59)
+in /var/www/html/recm/protected/controllers/Ap1Ind2aHistController.php (93)
+in /var/www/html/recm/index.php (13)
+2014/11/24 10:11:41 [error] [system.db.CDbCommand] CDbCommand::execute() falló: SQLSTATE[HY000]: General error: 102 General SQL Server error: Check messages from the SQL Server [102] (severity 15) [(null)]. La sentencia SQL ejecutada fue: INSERT INTO ap1Ind2a VALUES (1,1,,1,1,'2014-11-24 10:11:40','2014-11-24 10:11:40');.
+in /var/www/html/recm/protected/views/ap1Ind2aHist/_excel.php (116)
+in /var/www/html/recm/protected/controllers/Ap1Ind2aHistController.php (93)
+in /var/www/html/recm/index.php (13)
+2014/11/24 10:11:41 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[HY000]: General error: 102 General SQL Server error: Check messages from the SQL Server [102] (severity 15) [(null)]. The SQL statement executed was: INSERT INTO ap1Ind2a VALUES (1,1,,1,1,'2014-11-24 10:11:40','2014-11-24 10:11:40');' in /var/www/html/recm/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/html/recm/protected/views/ap1Ind2aHist/_excel.php(116): CDbCommand->execute()
+#1 /var/www/html/recm/yii/framework/web/CBaseController.php(126): require('/var/www/html/r...')
+#2 /var/www/html/recm/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/r...', Array, true)
+#3 /var/www/html/recm/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/r...', Array, true)
+#4 /var/www/html/recm/yii/framework/web/CController.php(782): CController->renderPartial('_excel', Array, true)
+#5 /var/www/html/recm/protected/controllers/Ap1Ind2aHistController.php(93): CController->render('_excel', Array)
+#6 [internal function]: Ap1Ind2aHistController->actionExcel('1')
+#7 /var/www/html/recm/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Ap1Ind2aHistController), Array)
+#8 /var/www/html/recm/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Ap1Ind2aHistController), Object(ReflectionMethod), Array)
+#9 /var/www/html/recm/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /var/www/html/recm/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 /var/www/html/recm/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#12 /var/www/html/recm/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 /var/www/html/recm/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 /var/www/html/recm/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 /var/www/html/recm/yii/framework/web/CController.php(291): CFilterChain->run()
+#16 /var/www/html/recm/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /var/www/html/recm/yii/framework/web/CWebApplication.php(282): CController->run('excel')
+#18 /var/www/html/recm/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('ap1Ind2aHist/ex...')
+#19 /var/www/html/recm/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#20 /var/www/html/recm/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/recm/index.php/ap1Ind2aHist/excel/1
+HTTP_REFERER=http://localhost/recm/index.php/ap1Ind2aHist/excel/1
+---
+2014/11/24 10:13:30 [error] [system.db.CDbCommand] CDbCommand::execute() falló: SQLSTATE[HY000]: General error: 8101 General SQL Server error: Check messages from the SQL Server [8101] (severity 16) [(null)]. La sentencia SQL ejecutada fue: INSERT INTO ap1Ind2a VALUES (1,1,1.091608792934,1,1,'2014-11-24 10:13:29','2014-11-24 10:13:29');.
+in /var/www/html/recm/protected/views/ap1Ind2aHist/_excel.php (116)
+in /var/www/html/recm/protected/controllers/Ap1Ind2aHistController.php (93)
+in /var/www/html/recm/index.php (13)
+2014/11/24 10:13:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[HY000]: General error: 8101 General SQL Server error: Check messages from the SQL Server [8101] (severity 16) [(null)]. The SQL statement executed was: INSERT INTO ap1Ind2a VALUES (1,1,1.091608792934,1,1,'2014-11-24 10:13:29','2014-11-24 10:13:29');' in /var/www/html/recm/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/html/recm/protected/views/ap1Ind2aHist/_excel.php(116): CDbCommand->execute()
+#1 /var/www/html/recm/yii/framework/web/CBaseController.php(126): require('/var/www/html/r...')
+#2 /var/www/html/recm/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/r...', Array, true)
+#3 /var/www/html/recm/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/r...', Array, true)
+#4 /var/www/html/recm/yii/framework/web/CController.php(782): CController->renderPartial('_excel', Array, true)
+#5 /var/www/html/recm/protected/controllers/Ap1Ind2aHistController.php(93): CController->render('_excel', Array)
+#6 [internal function]: Ap1Ind2aHistController->actionExcel('1')
+#7 /var/www/html/recm/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Ap1Ind2aHistController), Array)
+#8 /var/www/html/recm/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Ap1Ind2aHistController), Object(ReflectionMethod), Array)
+#9 /var/www/html/recm/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /var/www/html/recm/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 /var/www/html/recm/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#12 /var/www/html/recm/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 /var/www/html/recm/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 /var/www/html/recm/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 /var/www/html/recm/yii/framework/web/CController.php(291): CFilterChain->run()
+#16 /var/www/html/recm/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /var/www/html/recm/yii/framework/web/CWebApplication.php(282): CController->run('excel')
+#18 /var/www/html/recm/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('ap1Ind2aHist/ex...')
+#19 /var/www/html/recm/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#20 /var/www/html/recm/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/recm/index.php/ap1Ind2aHist/excel/1
+HTTP_REFERER=http://localhost/recm/index.php/ap1Ind2aHist/excel/1
+---
+2014/11/24 10:14:34 [error] [system.db.CDbCommand] CDbCommand::execute() falló: SQLSTATE[HY000]: General error: 8101 General SQL Server error: Check messages from the SQL Server [8101] (severity 16) [(null)]. La sentencia SQL ejecutada fue: INSERT INTO ap1Ind2a VALUES (1,'1','1.091608792934',1,1,'2014-11-24 10:14:33','2014-11-24 10:14:33');.
+in /var/www/html/recm/protected/views/ap1Ind2aHist/_excel.php (116)
+in /var/www/html/recm/protected/controllers/Ap1Ind2aHistController.php (93)
+in /var/www/html/recm/index.php (13)
+2014/11/24 10:14:34 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[HY000]: General error: 8101 General SQL Server error: Check messages from the SQL Server [8101] (severity 16) [(null)]. The SQL statement executed was: INSERT INTO ap1Ind2a VALUES (1,'1','1.091608792934',1,1,'2014-11-24 10:14:33','2014-11-24 10:14:33');' in /var/www/html/recm/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/html/recm/protected/views/ap1Ind2aHist/_excel.php(116): CDbCommand->execute()
+#1 /var/www/html/recm/yii/framework/web/CBaseController.php(126): require('/var/www/html/r...')
+#2 /var/www/html/recm/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/r...', Array, true)
+#3 /var/www/html/recm/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/r...', Array, true)
+#4 /var/www/html/recm/yii/framework/web/CController.php(782): CController->renderPartial('_excel', Array, true)
+#5 /var/www/html/recm/protected/controllers/Ap1Ind2aHistController.php(93): CController->render('_excel', Array)
+#6 [internal function]: Ap1Ind2aHistController->actionExcel('1')
+#7 /var/www/html/recm/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Ap1Ind2aHistController), Array)
+#8 /var/www/html/recm/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Ap1Ind2aHistController), Object(ReflectionMethod), Array)
+#9 /var/www/html/recm/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /var/www/html/recm/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 /var/www/html/recm/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#12 /var/www/html/recm/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 /var/www/html/recm/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 /var/www/html/recm/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 /var/www/html/recm/yii/framework/web/CController.php(291): CFilterChain->run()
+#16 /var/www/html/recm/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /var/www/html/recm/yii/framework/web/CWebApplication.php(282): CController->run('excel')
+#18 /var/www/html/recm/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('ap1Ind2aHist/ex...')
+#19 /var/www/html/recm/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#20 /var/www/html/recm/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/recm/index.php/ap1Ind2aHist/excel/1
+HTTP_REFERER=http://localhost/recm/index.php/ap1Ind2aHist/excel/1
+---
+2014/11/24 10:17:38 [error] [system.db.CDbCommand] CDbCommand::execute() falló: SQLSTATE[HY000]: General error: 245 General SQL Server error: Check messages from the SQL Server [245] (severity 16) [(null)]. La sentencia SQL ejecutada fue: INSERT INTO ap1Ind2a VALUES (1,1,1.091608792934,1,1,'2014-11-24 10:17:37','2014-11-24 10:17:37');.
+in /var/www/html/recm/protected/views/ap1Ind2aHist/_excel.php (116)
+in /var/www/html/recm/protected/controllers/Ap1Ind2aHistController.php (93)
+in /var/www/html/recm/index.php (13)
+2014/11/24 10:17:38 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[HY000]: General error: 245 General SQL Server error: Check messages from the SQL Server [245] (severity 16) [(null)]. The SQL statement executed was: INSERT INTO ap1Ind2a VALUES (1,1,1.091608792934,1,1,'2014-11-24 10:17:37','2014-11-24 10:17:37');' in /var/www/html/recm/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/html/recm/protected/views/ap1Ind2aHist/_excel.php(116): CDbCommand->execute()
+#1 /var/www/html/recm/yii/framework/web/CBaseController.php(126): require('/var/www/html/r...')
+#2 /var/www/html/recm/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/r...', Array, true)
+#3 /var/www/html/recm/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/r...', Array, true)
+#4 /var/www/html/recm/yii/framework/web/CController.php(782): CController->renderPartial('_excel', Array, true)
+#5 /var/www/html/recm/protected/controllers/Ap1Ind2aHistController.php(93): CController->render('_excel', Array)
+#6 [internal function]: Ap1Ind2aHistController->actionExcel('1')
+#7 /var/www/html/recm/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Ap1Ind2aHistController), Array)
+#8 /var/www/html/recm/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Ap1Ind2aHistController), Object(ReflectionMethod), Array)
+#9 /var/www/html/recm/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /var/www/html/recm/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 /var/www/html/recm/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#12 /var/www/html/recm/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 /var/www/html/recm/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 /var/www/html/recm/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 /var/www/html/recm/yii/framework/web/CController.php(291): CFilterChain->run()
+#16 /var/www/html/recm/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /var/www/html/recm/yii/framework/web/CWebApplication.php(282): CController->run('excel')
+#18 /var/www/html/recm/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('ap1Ind2aHist/ex...')
+#19 /var/www/html/recm/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#20 /var/www/html/recm/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/recm/index.php/ap1Ind2aHist/excel/1
+HTTP_REFERER=http://localhost/recm/index.php/ap1Ind2aHist/excel/1
+---
+2014/11/24 10:19:47 [error] [system.db.CDbCommand] CDbCommand::execute() falló: SQLSTATE[HY000]: General error: 245 General SQL Server error: Check messages from the SQL Server [245] (severity 16) [(null)]. La sentencia SQL ejecutada fue: INSERT INTO ap1Ind2a VALUES (1,1,1.091608792934,1,1,'2014-11-24 10:19:46','2014-11-24 10:19:46');.
+in /var/www/html/recm/protected/views/ap1Ind2aHist/_excel.php (116)
+in /var/www/html/recm/protected/controllers/Ap1Ind2aHistController.php (93)
+in /var/www/html/recm/index.php (13)
+2014/11/24 10:19:47 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[HY000]: General error: 245 General SQL Server error: Check messages from the SQL Server [245] (severity 16) [(null)]. The SQL statement executed was: INSERT INTO ap1Ind2a VALUES (1,1,1.091608792934,1,1,'2014-11-24 10:19:46','2014-11-24 10:19:46');' in /var/www/html/recm/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/html/recm/protected/views/ap1Ind2aHist/_excel.php(116): CDbCommand->execute()
+#1 /var/www/html/recm/yii/framework/web/CBaseController.php(126): require('/var/www/html/r...')
+#2 /var/www/html/recm/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/r...', Array, true)
+#3 /var/www/html/recm/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/r...', Array, true)
+#4 /var/www/html/recm/yii/framework/web/CController.php(782): CController->renderPartial('_excel', Array, true)
+#5 /var/www/html/recm/protected/controllers/Ap1Ind2aHistController.php(93): CController->render('_excel', Array)
+#6 [internal function]: Ap1Ind2aHistController->actionExcel('1')
+#7 /var/www/html/recm/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Ap1Ind2aHistController), Array)
+#8 /var/www/html/recm/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Ap1Ind2aHistController), Object(ReflectionMethod), Array)
+#9 /var/www/html/recm/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#10 /var/www/html/recm/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 /var/www/html/recm/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#12 /var/www/html/recm/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 /var/www/html/recm/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 /var/www/html/recm/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 /var/www/html/recm/yii/framework/web/CController.php(291): CFilterChain->run()
+#16 /var/www/html/recm/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /var/www/html/recm/yii/framework/web/CWebApplication.php(282): CController->run('excel')
+#18 /var/www/html/recm/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('ap1Ind2aHist/ex...')
+#19 /var/www/html/recm/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#20 /var/www/html/recm/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/recm/index.php/ap1Ind2aHist/excel/1
+HTTP_REFERER=http://localhost/recm/index.php/ap1Ind2aHist/excel/1
+---
+2014/11/24 10:29:32 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in /var/www/html/recm/yii/framework/web/CController.php:336
+Stack trace:
+#0 /var/www/html/recm/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/html/recm/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /var/www/html/recm/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /var/www/html/recm/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /var/www/html/recm/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /var/www/html/recm/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /var/www/html/recm/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /var/www/html/recm/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /var/www/html/recm/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#9 /var/www/html/recm/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('ap1Ind2a/admin')
+#10 /var/www/html/recm/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /var/www/html/recm/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/recm/index.php/ap1Ind2a/admin
+HTTP_REFERER=http://localhost/recm/index.php/ap1Ind2a/create
+---
+2014/11/24 10:37:27 [error] [php] Missing argument 1 for Ap1Ind2a::search(), called in /var/www/html/recm/protected/views/ap1Ind2a/admin.php on line 31 and defined (/var/www/html/recm/protected/models/Ap1Ind2a.php:85)
+Stack trace:
+#0 /var/www/html/recm/yii/framework/web/CBaseController.php(95): Ap1Ind2aController->renderInternal()
+#1 /var/www/html/recm/yii/framework/web/CController.php(869): Ap1Ind2aController->renderFile()
+#2 /var/www/html/recm/yii/framework/web/CController.php(782): Ap1Ind2aController->renderPartial()
+#3 /var/www/html/recm/protected/controllers/Ap1Ind2aController.php(143): Ap1Ind2aController->render()
+#4 /var/www/html/recm/yii/framework/web/actions/CInlineAction.php(49): Ap1Ind2aController->actionAdmin()
+#5 /var/www/html/recm/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#6 /var/www/html/recm/yii/framework/web/filters/CFilterChain.php(133): Ap1Ind2aController->runAction()
+#7 /var/www/html/recm/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#8 /var/www/html/recm/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#9 /var/www/html/recm/yii/framework/web/filters/CInlineFilter.php(58): Ap1Ind2aController->filterAccessControl()
+#10 /var/www/html/recm/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#11 /var/www/html/recm/yii/framework/web/CController.php(291): CFilterChain->run()
+#12 /var/www/html/recm/yii/framework/web/CController.php(265): Ap1Ind2aController->runActionWithFilters()
+#13 /var/www/html/recm/yii/framework/web/CWebApplication.php(282): Ap1Ind2aController->run()
+#14 /var/www/html/recm/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#15 /var/www/html/recm/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#16 /var/www/html/recm/index.php(13): CWebApplication->run()
+REQUEST_URI=/recm/index.php/ap1Ind2a/admin/1
+in /var/www/html/recm/protected/models/Ap1Ind2a.php (85)
+in /var/www/html/recm/protected/views/ap1Ind2a/admin.php (31)
+in /var/www/html/recm/protected/controllers/Ap1Ind2aController.php (143)
+2014/11/24 10:37:40 [error] [exception.CException] exception 'CException' with message 'La propiedad "Ap1Ind2a"."entidad" no se encuentra definida.' in /var/www/html/recm/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /var/www/html/recm/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('entidad')
+#1 /var/www/html/recm/yii/framework/db/ar/CActiveFinder.php(656): CActiveRecord->__get('entidad')
+#2 /var/www/html/recm/yii/framework/db/ar/CActiveFinder.php(500): CJoinElement->applyLazyCondition(Object(CJoinQuery), Object(Ap1Ind2a))
+#3 /var/www/html/recm/yii/framework/db/ar/CActiveFinder.php(163): CJoinElement->lazyFind(Object(Ap1Ind2a))
+#4 /var/www/html/recm/yii/framework/db/ar/CActiveRecord.php(281): CActiveFinder->lazyFind(Object(Ap1Ind2a))
+#5 /var/www/html/recm/yii/framework/db/ar/CActiveRecord.php(143): CActiveRecord->getRelated('Entidades')
+#6 /var/www/html/recm/yii/framework/base/CComponent.php(612) : eval()'d code(1): CActiveRecord->__get('Entidades')
+#7 /var/www/html/recm/yii/framework/base/CComponent.php(612): eval()
+#8 /var/www/html/recm/yii/framework/zii/widgets/grid/CDataColumn.php(137): CComponent->evaluateExpression('$data->Entidade...', Array)
+#9 /var/www/html/recm/yii/framework/zii/widgets/grid/CGridColumn.php(151): CDataColumn->renderDataCellContent(0, Object(Ap1Ind2a))
+#10 /var/www/html/recm/yii/framework/zii/widgets/grid/CGridView.php(616): CGridColumn->renderDataCell(0)
+#11 /var/www/html/recm/yii/framework/zii/widgets/grid/CGridView.php(572): CGridView->renderTableRow(0)
+#12 /var/www/html/recm/yii/framework/zii/widgets/grid/CGridView.php(482): CGridView->renderTableBody()
+#13 /var/www/html/recm/yii/framework/zii/widgets/CBaseListView.php(167): CGridView->renderItems()
+#14 [internal function]: CBaseListView->renderSection(Array)
+#15 /var/www/html/recm/yii/framework/zii/widgets/CBaseListView.php(150): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#16 /var/www/html/recm/yii/framework/zii/widgets/CBaseListView.php(135): CBaseListView->renderContent()
+#17 /var/www/html/recm/yii/framework/web/CBaseController.php(173): CBaseListView->run()
+#18 /var/www/html/recm/protected/views/ap1Ind2a/admin.php(58): CBaseController->widget('zii.widgets.gri...', Array)
+#19 /var/www/html/recm/yii/framework/web/CBaseController.php(126): require('/var/www/html/r...')
+#20 /var/www/html/recm/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/html/r...', Array, true)
+#21 /var/www/html/recm/yii/framework/web/CController.php(869): CBaseController->renderFile('/var/www/html/r...', Array, true)
+#22 /var/www/html/recm/yii/framework/web/CController.php(782): CController->renderPartial('admin', Array, true)
+#23 /var/www/html/recm/protected/controllers/Ap1Ind2aController.php(143): CController->render('admin', Array)
+#24 /var/www/html/recm/yii/framework/web/actions/CInlineAction.php(49): Ap1Ind2aController->actionAdmin()
+#25 /var/www/html/recm/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#26 /var/www/html/recm/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#27 /var/www/html/recm/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#28 /var/www/html/recm/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#29 /var/www/html/recm/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#30 /var/www/html/recm/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#31 /var/www/html/recm/yii/framework/web/CController.php(291): CFilterChain->run()
+#32 /var/www/html/recm/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#33 /var/www/html/recm/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#34 /var/www/html/recm/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('ap1Ind2a/admin')
+#35 /var/www/html/recm/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#36 /var/www/html/recm/index.php(13): CApplication->run()
+#37 {main}
+REQUEST_URI=/recm/index.php/ap1Ind2a/admin/1
+HTTP_REFERER=http://localhost/recm/index.php/ap1Ind2aHist
+---
+2014/11/24 10:39:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "previo" solicitada.' in /var/www/html/recm/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/recm/yii/framework/web/CController.php(270): CController->missingAction('previo')
+#1 /var/www/html/recm/yii/framework/web/CWebApplication.php(282): CController->run('previo')
+#2 /var/www/html/recm/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('ap1Ind2aHist/pr...')
+#3 /var/www/html/recm/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/html/recm/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/recm/index.php/ap1Ind2aHist/previo/1
+HTTP_REFERER=http://localhost/recm/index.php/ap1Ind2aHist/index
+---
+2014/11/24 10:44:57 [error] [exception.CException] exception 'CException' with message 'Ap1Ind2aHistController y sus behaviors no tienen un método o closure llamado "mostrarAutorizar".' in /var/www/html/recm/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/html/recm/protected/controllers/Ap1Ind2aHistController.php(62): CComponent->__call('mostrarAutoriza...', Array)
+#1 /var/www/html/recm/protected/controllers/Ap1Ind2aHistController.php(62): Ap1Ind2aHistController->mostrarAutorizar('1', 1, 2, 4)
+#2 [internal function]: Ap1Ind2aHistController->actionPrevio('1')
+#3 /var/www/html/recm/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Ap1Ind2aHistController), Array)
+#4 /var/www/html/recm/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Ap1Ind2aHistController), Object(ReflectionMethod), Array)
+#5 /var/www/html/recm/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /var/www/html/recm/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 /var/www/html/recm/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#8 /var/www/html/recm/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 /var/www/html/recm/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 /var/www/html/recm/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 /var/www/html/recm/yii/framework/web/CController.php(291): CFilterChain->run()
+#12 /var/www/html/recm/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /var/www/html/recm/yii/framework/web/CWebApplication.php(282): CController->run('previo')
+#14 /var/www/html/recm/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('ap1Ind2aHist/pr...')
+#15 /var/www/html/recm/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#16 /var/www/html/recm/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/recm/index.php/ap1Ind2aHist/previo/1
+HTTP_REFERER=http://localhost/recm/index.php/ap1Ind2aHist/index
+---
+2014/11/24 10:44:58 [error] [exception.CException] exception 'CException' with message 'Ap1Ind2aHistController y sus behaviors no tienen un método o closure llamado "mostrarAutorizar".' in /var/www/html/recm/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/html/recm/protected/controllers/Ap1Ind2aHistController.php(62): CComponent->__call('mostrarAutoriza...', Array)
+#1 /var/www/html/recm/protected/controllers/Ap1Ind2aHistController.php(62): Ap1Ind2aHistController->mostrarAutorizar('1', 1, 2, 4)
+#2 [internal function]: Ap1Ind2aHistController->actionPrevio('1')
+#3 /var/www/html/recm/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Ap1Ind2aHistController), Array)
+#4 /var/www/html/recm/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Ap1Ind2aHistController), Object(ReflectionMethod), Array)
+#5 /var/www/html/recm/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /var/www/html/recm/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 /var/www/html/recm/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#8 /var/www/html/recm/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 /var/www/html/recm/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 /var/www/html/recm/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 /var/www/html/recm/yii/framework/web/CController.php(291): CFilterChain->run()
+#12 /var/www/html/recm/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /var/www/html/recm/yii/framework/web/CWebApplication.php(282): CController->run('previo')
+#14 /var/www/html/recm/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('ap1Ind2aHist/pr...')
+#15 /var/www/html/recm/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#16 /var/www/html/recm/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/recm/index.php/ap1Ind2aHist/previo/1
+HTTP_REFERER=http://localhost/recm/index.php/ap1Ind2aHist/index
+---
+2014/11/24 10:45:04 [error] [exception.CException] exception 'CException' with message 'Ap1Ind2aHistController y sus behaviors no tienen un método o closure llamado "mostrarAutorizar".' in /var/www/html/recm/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/html/recm/protected/controllers/Ap1Ind2aHistController.php(62): CComponent->__call('mostrarAutoriza...', Array)
+#1 /var/www/html/recm/protected/controllers/Ap1Ind2aHistController.php(62): Ap1Ind2aHistController->mostrarAutorizar('1', 1, 2, 4)
+#2 [internal function]: Ap1Ind2aHistController->actionPrevio('1')
+#3 /var/www/html/recm/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Ap1Ind2aHistController), Array)
+#4 /var/www/html/recm/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Ap1Ind2aHistController), Object(ReflectionMethod), Array)
+#5 /var/www/html/recm/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /var/www/html/recm/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 /var/www/html/recm/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#8 /var/www/html/recm/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 /var/www/html/recm/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 /var/www/html/recm/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 /var/www/html/recm/yii/framework/web/CController.php(291): CFilterChain->run()
+#12 /var/www/html/recm/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /var/www/html/recm/yii/framework/web/CWebApplication.php(282): CController->run('previo')
+#14 /var/www/html/recm/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('ap1Ind2aHist/pr...')
+#15 /var/www/html/recm/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#16 /var/www/html/recm/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/recm/index.php/ap1Ind2aHist/previo/1
+HTTP_REFERER=http://localhost/recm/index.php/ap1Ind2aHist/index
+---
+2014/11/24 10:45:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "ap1Ind2a" solicitada.' in /var/www/html/recm/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/recm/yii/framework/web/CController.php(270): CController->missingAction('ap1Ind2a')
+#1 /var/www/html/recm/yii/framework/web/CWebApplication.php(282): CController->run('ap1Ind2a')
+#2 /var/www/html/recm/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/ap1Ind2a')
+#3 /var/www/html/recm/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/html/recm/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/recm/index.php/api/ap1Ind2a
+---
+2014/11/24 10:45:33 [error] [php] Invalid argument supplied for foreach() (/var/www/html/recm/protected/views/ap1Ind2aHist/_previo.php:162)
+Stack trace:
+#0 /var/www/html/recm/yii/framework/web/CController.php(869): Ap1Ind2aHistController->renderFile()
+#1 /var/www/html/recm/yii/framework/web/CController.php(782): Ap1Ind2aHistController->renderPartial()
+#2 /var/www/html/recm/protected/controllers/Ap1Ind2aHistController.php(75): Ap1Ind2aHistController->render()
+#3 unknown(0): Ap1Ind2aHistController->actionPrevio()
+#4 /var/www/html/recm/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs()
+#5 /var/www/html/recm/yii/framework/web/actions/CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 /var/www/html/recm/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /var/www/html/recm/yii/framework/web/filters/CFilterChain.php(133): Ap1Ind2aHistController->runAction()
+#8 /var/www/html/recm/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /var/www/html/recm/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#10 /var/www/html/recm/yii/framework/web/filters/CInlineFilter.php(58): Ap1Ind2aHistController->filterAccessControl()
+#11 /var/www/html/recm/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#12 /var/www/html/recm/yii/framework/web/CController.php(291): CFilterChain->run()
+#13 /var/www/html/recm/yii/framework/web/CController.php(265): Ap1Ind2aHistController->runActionWithFilters()
+#14 /var/www/html/recm/yii/framework/web/CWebApplication.php(282): Ap1Ind2aHistController->run()
+#15 /var/www/html/recm/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#16 /var/www/html/recm/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#17 /var/www/html/recm/index.php(13): CWebApplication->run()
+REQUEST_URI=/recm/index.php/ap1Ind2aHist/previo/1
+in /var/www/html/recm/protected/views/ap1Ind2aHist/_previo.php (162)
+in /var/www/html/recm/protected/controllers/Ap1Ind2aHistController.php (75)
+in /var/www/html/recm/index.php (13)
+2014/11/24 10:46:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "ap1Ind2a" solicitada.' in /var/www/html/recm/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/recm/yii/framework/web/CController.php(270): CController->missingAction('ap1Ind2a')
+#1 /var/www/html/recm/yii/framework/web/CWebApplication.php(282): CController->run('ap1Ind2a')
+#2 /var/www/html/recm/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/ap1Ind2a')
+#3 /var/www/html/recm/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/html/recm/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/recm/index.php/api/ap1Ind2a
+---
+2014/11/24 10:46:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "ap1Ind2a" solicitada.' in /var/www/html/recm/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/recm/yii/framework/web/CController.php(270): CController->missingAction('ap1Ind2a')
+#1 /var/www/html/recm/yii/framework/web/CWebApplication.php(282): CController->run('ap1Ind2a')
+#2 /var/www/html/recm/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/ap1Ind2a')
+#3 /var/www/html/recm/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/html/recm/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/recm/index.php/api/ap1Ind2a
+---
+2014/11/24 10:49:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "ap1Ind2a" solicitada.' in /var/www/html/recm/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/recm/yii/framework/web/CController.php(270): CController->missingAction('ap1Ind2a')
+#1 /var/www/html/recm/yii/framework/web/CWebApplication.php(282): CController->run('ap1Ind2a')
+#2 /var/www/html/recm/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/ap1Ind2a')
+#3 /var/www/html/recm/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/html/recm/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/recm/index.php/api/ap1Ind2a
+---
+2014/11/24 10:50:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "ap1Ind2a" solicitada.' in /var/www/html/recm/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/recm/yii/framework/web/CController.php(270): CController->missingAction('ap1Ind2a')
+#1 /var/www/html/recm/yii/framework/web/CWebApplication.php(282): CController->run('ap1Ind2a')
+#2 /var/www/html/recm/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/ap1Ind2a')
+#3 /var/www/html/recm/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/html/recm/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/recm/index.php/api/ap1Ind2a
+---
+2014/11/24 10:51:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "ap1Ind2a" solicitada.' in /var/www/html/recm/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/recm/yii/framework/web/CController.php(270): CController->missingAction('ap1Ind2a')
+#1 /var/www/html/recm/yii/framework/web/CWebApplication.php(282): CController->run('ap1Ind2a')
+#2 /var/www/html/recm/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/ap1Ind2a')
+#3 /var/www/html/recm/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/html/recm/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/recm/index.php/api/ap1Ind2a
+---
+2014/11/24 11:29:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "ap1Ind2a" solicitada.' in /var/www/html/recm/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/recm/yii/framework/web/CController.php(270): CController->missingAction('ap1Ind2a')
+#1 /var/www/html/recm/yii/framework/web/CWebApplication.php(282): CController->run('ap1Ind2a')
+#2 /var/www/html/recm/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/ap1Ind2a')
+#3 /var/www/html/recm/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/html/recm/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/recm/index.php/api/ap1Ind2a
+---
+2014/11/24 11:30:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "ap1Ind2a" solicitada.' in /var/www/html/recm/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/recm/yii/framework/web/CController.php(270): CController->missingAction('ap1Ind2a')
+#1 /var/www/html/recm/yii/framework/web/CWebApplication.php(282): CController->run('ap1Ind2a')
+#2 /var/www/html/recm/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/ap1Ind2a')
+#3 /var/www/html/recm/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/html/recm/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/recm/index.php/api/ap1Ind2a
+---
+2014/11/24 11:31:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "ap1Ind2a" solicitada.' in /var/www/html/recm/yii/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/recm/yii/framework/web/CController.php(270): CController->missingAction('ap1Ind2a')
+#1 /var/www/html/recm/yii/framework/web/CWebApplication.php(282): CController->run('ap1Ind2a')
+#2 /var/www/html/recm/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/ap1Ind2a')
+#3 /var/www/html/recm/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/html/recm/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/recm/index.php/api/ap1Ind2a
+---
+2014/11/24 11:48:16 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[HY000]: General error: 126 General SQL Server error: Check messages from the SQL Server [126] (severity 15) [(null)]. La sentencia SQL ejecutada fue: SELECT * FROM [dbo].[ap1Ind2a] [t] WHERE id_periodo=$id ORDER BY id.
+in /var/www/html/recm/protected/controllers/Api2Controller.php (14)
+in /var/www/html/recm/index.php (13)
+2014/11/24 11:48:16 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[HY000]: General error: 126 General SQL Server error: Check messages from the SQL Server [126] (severity 15) [(null)]. The SQL statement executed was: SELECT * FROM [dbo].[ap1Ind2a] [t] WHERE id_periodo=$id ORDER BY id' in /var/www/html/recm/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /var/www/html/recm/yii/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /var/www/html/recm/yii/framework/db/ar/CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 /var/www/html/recm/yii/framework/db/ar/CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /var/www/html/recm/protected/controllers/Api2Controller.php(14): CActiveRecord->findAll(Array)
+#4 [internal function]: Api2Controller->actionAp1Ind2a('1')
+#5 /var/www/html/recm/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Api2Controller), Array)
+#6 /var/www/html/recm/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Api2Controller), Object(ReflectionMethod), Array)
+#7 /var/www/html/recm/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /var/www/html/recm/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /var/www/html/recm/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/html/recm/yii/framework/web/CWebApplication.php(282): CController->run('ap1Ind2a')
+#11 /var/www/html/recm/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api2/ap1Ind2a')
+#12 /var/www/html/recm/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /var/www/html/recm/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/recm/index.php/api2/ap1Ind2a?id=1
+---
+2014/11/24 11:48:22 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[HY000]: General error: 126 General SQL Server error: Check messages from the SQL Server [126] (severity 15) [(null)]. La sentencia SQL ejecutada fue: SELECT * FROM [dbo].[ap1Ind2a] [t] WHERE id_periodo=$id ORDER BY id.
+in /var/www/html/recm/protected/controllers/Api2Controller.php (14)
+in /var/www/html/recm/index.php (13)
+2014/11/24 11:48:22 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[HY000]: General error: 126 General SQL Server error: Check messages from the SQL Server [126] (severity 15) [(null)]. The SQL statement executed was: SELECT * FROM [dbo].[ap1Ind2a] [t] WHERE id_periodo=$id ORDER BY id' in /var/www/html/recm/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /var/www/html/recm/yii/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /var/www/html/recm/yii/framework/db/ar/CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 /var/www/html/recm/yii/framework/db/ar/CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /var/www/html/recm/protected/controllers/Api2Controller.php(14): CActiveRecord->findAll(Array)
+#4 [internal function]: Api2Controller->actionAp1Ind2a('2')
+#5 /var/www/html/recm/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(Api2Controller), Array)
+#6 /var/www/html/recm/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(Api2Controller), Object(ReflectionMethod), Array)
+#7 /var/www/html/recm/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /var/www/html/recm/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /var/www/html/recm/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /var/www/html/recm/yii/framework/web/CWebApplication.php(282): CController->run('ap1Ind2a')
+#11 /var/www/html/recm/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api2/ap1Ind2a')
+#12 /var/www/html/recm/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /var/www/html/recm/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/recm/index.php/api2/ap1Ind2a?id=2
+---
+2014/11/24 14:25:38 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in /var/www/html/recm/yii/framework/web/CController.php:336
+Stack trace:
+#0 /var/www/html/recm/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/html/recm/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /var/www/html/recm/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /var/www/html/recm/yii/framework/web/CWebApplication.php(282): CController->run('ap1Ind2aGrafico')
+#4 /var/www/html/recm/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api2/ap1Ind2aGr...')
+#5 /var/www/html/recm/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /var/www/html/recm/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/recm/index.php/api2/ap1Ind2aGrafico
+---
+2014/11/24 14:26:00 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in /var/www/html/recm/yii/framework/web/CController.php:336
+Stack trace:
+#0 /var/www/html/recm/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/html/recm/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /var/www/html/recm/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /var/www/html/recm/yii/framework/web/CWebApplication.php(282): CController->run('ap1Ind2aGrafico')
+#4 /var/www/html/recm/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api2/ap1Ind2aGr...')
+#5 /var/www/html/recm/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /var/www/html/recm/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/recm/index.php/api2/ap1Ind2aGrafico
+---
+2014/11/24 14:26:23 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Su solicitud es inválida.' in /var/www/html/recm/yii/framework/web/CController.php:336
+Stack trace:
+#0 /var/www/html/recm/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /var/www/html/recm/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /var/www/html/recm/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /var/www/html/recm/yii/framework/web/CWebApplication.php(282): CController->run('ap1Ind2aGrafico')
+#4 /var/www/html/recm/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api2/ap1Ind2aGr...')
+#5 /var/www/html/recm/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /var/www/html/recm/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/recm/index.php/api2/ap1Ind2aGrafico
+---
+2014/11/24 18:34:42 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] Unknown host machine name (severity 2)' in /var/www/html/recm/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/www/html/recm/yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/html/recm/yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/html/recm/yii/framework/base/CModule.php(387): CDbConnection->init()
+#3 /var/www/html/recm/yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#4 /var/www/html/recm/yii/framework/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /var/www/html/recm/yii/framework/db/ar/CActiveRecord.php(2361): CActiveRecord->getDbConnection()
+#6 /var/www/html/recm/yii/framework/db/ar/CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Entidades))
+#7 /var/www/html/recm/yii/framework/db/ar/CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 /var/www/html/recm/protected/controllers/EntidadesController.php(136): CActiveRecord->__construct('search')
+#9 /var/www/html/recm/yii/framework/web/actions/CInlineAction.php(49): EntidadesController->actionAdmin()
+#10 /var/www/html/recm/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#11 /var/www/html/recm/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 /var/www/html/recm/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#13 /var/www/html/recm/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 /var/www/html/recm/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 /var/www/html/recm/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 /var/www/html/recm/yii/framework/web/CController.php(291): CFilterChain->run()
+#17 /var/www/html/recm/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/html/recm/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#19 /var/www/html/recm/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('entidades/admin')
+#20 /var/www/html/recm/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#21 /var/www/html/recm/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/recm/index.php/entidades/admin
+HTTP_REFERER=http://localhost/recm/index.php/ap1Ind1Hist/previo/1
+---
+2014/11/24 18:59:11 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] Unknown host machine name (severity 2)' in /var/www/html/recm/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/www/html/recm/yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/html/recm/yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/html/recm/yii/framework/base/CModule.php(387): CDbConnection->init()
+#3 /var/www/html/recm/yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#4 /var/www/html/recm/yii/framework/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /var/www/html/recm/yii/framework/db/ar/CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 /var/www/html/recm/yii/framework/db/ar/CActiveRecord.php(1455): CActiveRecord->getCommandBuilder()
+#7 /var/www/html/recm/protected/components/UserIdentity.php(24): CActiveRecord->find('LOWER(username)...', Array)
+#8 /var/www/html/recm/protected/models/LoginForm.php(53): UserIdentity->authenticate()
+#9 /var/www/html/recm/yii/framework/validators/CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#10 /var/www/html/recm/yii/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#11 /var/www/html/recm/yii/framework/base/CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#12 /var/www/html/recm/protected/controllers/SiteController.php(52): CModel->validate()
+#13 /var/www/html/recm/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#14 /var/www/html/recm/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /var/www/html/recm/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#16 /var/www/html/recm/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /var/www/html/recm/yii/framework/web/CWebApplication.php(282): CController->run('')
+#18 /var/www/html/recm/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#19 /var/www/html/recm/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#20 /var/www/html/recm/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/recm/
+HTTP_REFERER=http://localhost/recm/
+---
+2014/11/24 18:59:48 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] Unknown host machine name (severity 2)' in /var/www/html/recm/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/www/html/recm/yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/html/recm/yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/html/recm/yii/framework/base/CModule.php(387): CDbConnection->init()
+#3 /var/www/html/recm/yii/framework/base/CApplication.php(450): CModule->getComponent('db')
+#4 /var/www/html/recm/yii/framework/db/ar/CActiveRecord.php(634): CApplication->getDb()
+#5 /var/www/html/recm/yii/framework/db/ar/CActiveRecord.php(667): CActiveRecord->getDbConnection()
+#6 /var/www/html/recm/yii/framework/db/ar/CActiveRecord.php(1455): CActiveRecord->getCommandBuilder()
+#7 /var/www/html/recm/protected/components/UserIdentity.php(24): CActiveRecord->find('LOWER(username)...', Array)
+#8 /var/www/html/recm/protected/models/LoginForm.php(53): UserIdentity->authenticate()
+#9 /var/www/html/recm/yii/framework/validators/CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#10 /var/www/html/recm/yii/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#11 /var/www/html/recm/yii/framework/base/CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#12 /var/www/html/recm/protected/controllers/SiteController.php(52): CModel->validate()
+#13 /var/www/html/recm/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#14 /var/www/html/recm/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /var/www/html/recm/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#16 /var/www/html/recm/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /var/www/html/recm/yii/framework/web/CWebApplication.php(282): CController->run('')
+#18 /var/www/html/recm/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#19 /var/www/html/recm/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#20 /var/www/html/recm/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/recm/
+HTTP_REFERER=http://localhost/recm/
+---

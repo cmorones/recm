@@ -103,7 +103,7 @@ class Ap1Ind1HistController extends Controller {
         $perfil = Yii::app()->user->perfil;
         $autoriza=$this->mostrarAutorizar($perfil,1,2,4);
         $model=Ap1Ind1Hist::model()->findByPk($id);
-
+        $baseUrl = YiiBase::getPathOfAlias("webroot");
         $url = "http://localhost/recm/index.php/api/ap1Ind1";
         //$url = $baseUrl;
         $data = file_get_contents($url);
@@ -284,8 +284,9 @@ class Ap1Ind1HistController extends Controller {
     {
       
         $model=$this->loadModel($id);
-
+        //desglossar json
         if($model->config){
+
         $data = CJSON::decode($model->config);
                 foreach ($data as $key => $value) {
                         $model->$key = base64_decode($value);
