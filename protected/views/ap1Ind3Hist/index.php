@@ -1,7 +1,7 @@
 
 
 <div class="page-header">
-  <h2>Produccion<small> - Valor Agregado Censal Bruto</small></h2>
+  <h2>Produccion<small> - PIB per cápita </small></h2>
 </div>
 
 
@@ -83,7 +83,7 @@
                         'htmlOptions'=>array('class'=>'btn btn-info','style'=>'padding: 0px;'),
 
 
-                        'url' => array('ap1Ind3Hist/config/'.$item->id.''),
+                        'url' => array('ap1Ind3Hist/update/'.$item->id.''),
                         //'onclick'=>new CJavaScriptExpression('function(){alert("Save button has been clicked"); this.blur(); return false;}'),
                   ));
             ?>
@@ -98,7 +98,7 @@
                         'htmlOptions'=>array('class'=>'btn btn-success','style'=>'padding: 0px;'),
 
 
-                        'url' => array('ap1Ind3Hist/view/'.$item->id.''),
+                        'url' => array('ap1Ind2a/admin/'.$item->id.''),
                         //'onclick'=>new CJavaScriptExpression('function(){alert("Save button has been clicked"); this.blur(); return false;}'),
                   ));
             ?>
@@ -109,12 +109,12 @@
                   $this->widget('zii.widgets.jui.CJuiButton', array(
                         'buttonType'=>'link',
                         'name'=>'mod'.$registro['periodo'].'',
-                        'caption'=>'Modificar Periodo/Excel',
+                        'caption'=>'Subir Excel',
                         'value'=>'mod',
                         'htmlOptions'=>array('class'=>'btn btn-warning','style'=>'padding: 0px;'),
 
 
-                        'url' => array('ap1Ind3Hist/update/'.$item->id.''),
+                        'url' => array('ap1Ind3Hist/excel/'.$item->id.''),
                         //'onclick'=>new CJavaScriptExpression('function(){alert("Save button has been clicked"); this.blur(); return false;}'),
                   ));
             ?>

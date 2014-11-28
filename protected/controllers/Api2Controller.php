@@ -13,25 +13,25 @@ $resultado = Ap1Ind2a::model()->findAll((array(
     'order'=>'id'
 	)));
 
-foreach ($resultado as $key => $row) {
+			foreach ($resultado as $key => $row) {
 
-	$sql = "SELECT nombre from entidades where id=$row[id_entidad]"; 
-	$entidad = Yii::app()->db->createCommand($sql)->queryRow();
+				$sql = "SELECT nombre from entidades where id=$row[id_entidad]"; 
+				$entidad = Yii::app()->db->createCommand($sql)->queryRow();
 
-			if( !isset($json["informe"]['estado'][$entidad["nombre"]]) ): 
-						$json["informe"]['estado'][$entidad["nombre"]] = array(
-						'valor'=> round($row["valor"], 1, PHP_ROUND_HALF_EVEN),
-						
-			          	);
+						if( !isset($json["informe"]['estado'][$entidad["nombre"]]) ): 
+									$json["informe"]['estado'][$entidad["nombre"]] = array(
+									'valor'=> round($row["valor"], 1, PHP_ROUND_HALF_EVEN),
+									
+						          	);
 
-			endif;
-}
+						endif;
+			}
 
 
 			header('Content-type: application/json');  
 			echo json_encode($json);  
 			Yii::app()->end(); 
-		}
+}
 
 
 public function actionAp1Ind2aGrafico($id){
@@ -97,6 +97,230 @@ $json = array(
 			echo json_encode($json, JSON_NUMERIC_CHECK);
 			Yii::app()->end(); 
 		}
+
+public function actionAp1Ind2b($id){
+
+$this->layout=false;
+
+$resultado = Ap1Ind2b::model()->findAll((array(
+    'condition'=>'id_periodo='.$id.'',
+    'order'=>'id'
+	)));
+
+			foreach ($resultado as $key => $row) {
+
+				$sql = "SELECT nombre from entidades where id=$row[id_entidad]"; 
+				$entidad = Yii::app()->db->createCommand($sql)->queryRow();
+
+						if( !isset($json["informe"]['anio'][$row["anio"]]) ): 
+									$json["informe"]['anio'][$row["anio"]] = array(
+									//'valor'=> round($row["valor"], 1, PHP_ROUND_HALF_EVEN),
+									'sector'=>array(),
+									
+						          	);
+
+						endif;
+						if( !isset($json["informe"]['anio'][$row["anio"]]['sector'][$row["id_sector"]]) ): 
+									$json["informe"]['anio'][$row["anio"]]['sector'][$row["id_sector"]] = array(
+									//'valor'=> round($row["valor"], 1, PHP_ROUND_HALF_EVEN),
+									'entidad'=>array(),
+									
+						          	);
+
+						endif;
+
+						if( !isset($json["informe"]['anio'][$row["anio"]]['sector'][$row["id_sector"]]['entidad'][$row["id_entidad"]]) ): 
+									$json["informe"]['anio'][$row["anio"]]['sector'][$row["id_sector"]]['entidad'][$row["id_entidad"]] = array(
+									'valor'=> round($row["valor"], 1, PHP_ROUND_HALF_EVEN),
+									
+									
+						          	);
+
+						endif;
+			}
+
+
+			header('Content-type: application/json');  
+			echo json_encode($json);  
+			Yii::app()->end(); 
+}
+
+
+public function actionAp1Ind4as($id){  //SERIES ORIGINALES
+
+$this->layout=false;
+
+$resultado = Ap1Ind4a::model()->findAll((array(
+    'condition'=>'id_periodo='.$id.' and tipo_serie=1',
+    'order'=>'id'
+	)));
+
+			foreach ($resultado as $key => $row) {
+
+
+						if( !isset($json["info"]['anio'][$row["anio"]]) ): 
+									$json["info"]['anio'][$row["anio"]] = array(
+									//'valor'=> round($row["valor"], 1, PHP_ROUND_HALF_EVEN),
+									'trim'=>array(),
+									
+						          	);
+
+						endif;
+
+							if( !isset($json["info"]['anio'][$row["anio"]]['trim'][$row["id_trimestre"]]) ): 
+									$json["info"]['anio'][$row["anio"]]['trim'][$row["id_trimestre"]] = array(
+									//'valor'=> round($row["valor"], 1, PHP_ROUND_HALF_EVEN),
+									'total'=>round($row["total_act"], 2),
+									'vp'=>round($row["vp"], 2),
+									
+						          	);
+
+						endif;
+						
+			}
+
+
+			header('Content-type: application/json');  
+			echo json_encode($json);  
+			Yii::app()->end(); 
+}
+
+public function actionAp1Ind4ad($id){  //SERIES ORIGINALES
+
+$this->layout=false;
+
+$resultado = Ap1Ind4a::model()->findAll((array(
+    'condition'=>'id_periodo='.$id.' and tipo_serie=2',
+    'order'=>'id'
+	)));
+
+			foreach ($resultado as $key => $row) {
+
+
+						if( !isset($json["info"]['anio'][$row["anio"]]) ): 
+									$json["info"]['anio'][$row["anio"]] = array(
+									//'valor'=> round($row["valor"], 1, PHP_ROUND_HALF_EVEN),
+									'trim'=>array(),
+									
+						          	);
+
+						endif;
+
+							if( !isset($json["info"]['anio'][$row["anio"]]['trim'][$row["id_trimestre"]]) ): 
+									$json["info"]['anio'][$row["anio"]]['trim'][$row["id_trimestre"]] = array(
+									//'valor'=> round($row["valor"], 1, PHP_ROUND_HALF_EVEN),
+									'total'=>round($row["total_act"], 2),
+									'vp'=>round($row["vp"], 2),
+									
+						          	);
+
+						endif;
+						
+			}
+
+
+			header('Content-type: application/json');  
+			echo json_encode($json);  
+			Yii::app()->end(); 
+}
+
+
+public function actionAp1Ind4b($id){
+
+$this->layout=false;
+
+$resultado = Ap1Ind4b::model()->findAll((array(
+    'condition'=>'id_periodo='.$id.' and anio=2014 and id_trimestre=2',
+    'order'=>'id'
+	)));
+
+			foreach ($resultado as $key => $row) {
+
+				$sql = "SELECT nombre from sectores where id=$row[id_sector]"; 
+				$sector = Yii::app()->db->createCommand($sql)->queryRow();
+
+				
+						if( !isset($json["informe"]['anio'][$row["anio"]]) ): 
+									$json["informe"]['anio'][$row["anio"]] = array(
+									//'valor'=> round($row["valor"], 1, PHP_ROUND_HALF_EVEN),
+									'trim'=>array(),
+									
+						          	);
+
+						endif;
+
+						if( !isset($json["informe"]['anio'][$row["anio"]]['trim'][$row["id_trimestre"]]) ): 
+									$json["informe"]['anio'][$row["anio"]]['trim'][$row["id_trimestre"]] = array(
+									//'valor'=> round($row["valor"], 1, PHP_ROUND_HALF_EVEN),
+									'sector'=>array(),
+									
+						          	);
+
+						endif;
+
+						if( !isset($json["informe"]['anio'][$row["anio"]]['trim'][$row["id_trimestre"]]['sector'][$sector["nombre"]]) ): 
+									$json["informe"]['anio'][$row["anio"]]['trim'][$row["id_trimestre"]]['sector'][$sector["nombre"]] = array(
+									//'valor'=> round($row["valor"], 1, PHP_ROUND_HALF_EVEN),
+									'valor'=>round($row["valor"], 1),
+									'vp'=>round($row["vp"], 1),
+									
+						          	);
+
+						endif;
+						
+			}
+
+
+			header('Content-type: application/json');  
+			echo json_encode($json);  
+			Yii::app()->end(); 
+			}
+
+
+
+public function actionAp1Ind4c($id){
+
+$this->layout=false;
+
+$resultado = Ap1Ind4c::model()->findAll((array(
+    'condition'=>'id_periodo='.$id.'',
+    'order'=>'id'
+	)));
+
+			foreach ($resultado as $key => $row) {
+
+			
+				
+						if( !isset($json["informe"]['anio'][$row["anio"]]) ): 
+									$json["informe"]['anio'][$row["anio"]] = array(
+									//'valor'=> round($row["valor"], 1, PHP_ROUND_HALF_EVEN),
+									'trim'=>array(),
+									
+						          	);
+
+						endif;
+
+						if( !isset($json["informe"]['anio'][$row["anio"]]['trim'][$row["id_trimestre"]]) ): 
+									$json["informe"]['anio'][$row["anio"]]['trim'][$row["id_trimestre"]] = array(
+									//'valor'=> round($row["valor"], 1, PHP_ROUND_HALF_EVEN),
+									'pib'=>round($row["pib"], 2),
+									'igae'=>round($row["igae"], 2),
+									'itaee'=>round($row["itaee"], 2),
+									
+						          	);
+
+						endif;
+
+						
+						
+			}
+
+
+			header('Content-type: application/json');  
+			echo json_encode($json);  
+			Yii::app()->end(); 
+			}
+
 
 
 	}

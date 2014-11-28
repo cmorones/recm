@@ -9,12 +9,14 @@
  * @property string $config
  * @property integer $validado
  * @property integer $autorizado
+ * @property integer $activo
  * @property string $fecha_reg
+ * @property string $fecha_mod
  * @property integer $user_reg
+ * @property integer $user_mod
  */
 class Ap1Ind3Hist extends CActiveRecord
 {
-    public $_archivo;
 	/**
 	 * @return string the associated database table name
 	 */
@@ -31,14 +33,14 @@ class Ap1Ind3Hist extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('periodo, config, validado, autorizado, activo, fecha_reg, user_reg', 'required'),
-			array('validado, autorizado, user_reg', 'numerical', 'integerOnly'=>true),
-			array('periodo, config', 'length', 'max'=>200),
-                        array('_archivo', 'file', 'types'=>'xls', "allowEmpty"=>false,'maxSize'=>1024 * 1024 * 2 ,  'tooLarge'=>'Archivo debe ser menor a 2mb', "on"=>"insert"),
-                        array('_archivo', 'file', 'types'=>'xls', "allowEmpty"=>true,'maxSize'=>1024 * 1024 * 2,  'tooLarge'=>'Archivo debe ser menor a 2mb', "on"=>"update"),
+			array('periodo, config', 'required'),
+			array('validado, autorizado, activo, user_reg, user_mod', 'numerical', 'integerOnly'=>true),
+			array('periodo', 'length', 'max'=>200),
+			array('config', 'length', 'max'=>2048),
+			array('fecha_reg, fecha_mod', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, periodo, config, validado, autorizado, fecha_reg, user_reg', 'safe', 'on'=>'search'),
+			array('id, periodo, config, validado, autorizado, activo, fecha_reg, fecha_mod, user_reg, user_mod', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -61,11 +63,14 @@ class Ap1Ind3Hist extends CActiveRecord
 		return array(
 			'id' => 'ID',
 			'periodo' => 'Periodo',
-			'config' => 'config',
+			'config' => 'Config',
 			'validado' => 'Validado',
 			'autorizado' => 'Autorizado',
+			'activo' => 'Activo',
 			'fecha_reg' => 'Fecha Reg',
+			'fecha_mod' => 'Fecha Mod',
 			'user_reg' => 'User Reg',
+			'user_mod' => 'User Mod',
 		);
 	}
 
@@ -92,8 +97,11 @@ class Ap1Ind3Hist extends CActiveRecord
 		$criteria->compare('config',$this->config,true);
 		$criteria->compare('validado',$this->validado);
 		$criteria->compare('autorizado',$this->autorizado);
+		$criteria->compare('activo',$this->activo);
 		$criteria->compare('fecha_reg',$this->fecha_reg,true);
+		$criteria->compare('fecha_mod',$this->fecha_mod,true);
 		$criteria->compare('user_reg',$this->user_reg);
+		$criteria->compare('user_mod',$this->user_mod);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
@@ -104,7 +112,7 @@ class Ap1Ind3Hist extends CActiveRecord
 	 * Returns the static model of the specified AR class.
 	 * Please note that you should have this exact method in all your CActiveRecord descendants!
 	 * @param string $className active record class name.
-	 * @return Ap1ind1HistJorge the static model class
+	 * @return Ap1Ind3Hist the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{

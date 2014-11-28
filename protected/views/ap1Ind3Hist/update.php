@@ -1,8 +1,21 @@
 <?php
+/* @var $this Ap1Ind2aHistController */
+/* @var $model Ap1Ind2aHist */
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+$this->breadcrumbs=array(
+	'Ap1 Ind2a Hists'=>array('index'),
+	$model->id=>array('view','id'=>$model->id),
+	'Update',
+);
 
+$this->menu=array(
+	array('label'=>'List Ap1Ind2aHist', 'url'=>array('index')),
+	array('label'=>'Create Ap1Ind2aHist', 'url'=>array('create')),
+	array('label'=>'View Ap1Ind2aHist', 'url'=>array('view', 'id'=>$model->id)),
+	array('label'=>'Manage Ap1Ind2aHist', 'url'=>array('admin')),
+);
+?>
+
+<h1>Update Ap1Ind2aHist <?php echo $model->id; ?></h1>
+
+<?php $this->renderPartial('_form', array('model'=>$model)); ?>
